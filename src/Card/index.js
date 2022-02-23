@@ -82,10 +82,10 @@ const Card = ({ item, RemovePlayer, EditPlayer }) => {
           </svg>
 
           <div>
-            <p>Имя: {item.player.firstName}</p>
-            <p>Фамилия: {item.player.lastName ? item.player.lastName : 'Hету'}</p>
-            <p>День рождение: {item.player.dateOfBirth}</p>
-            <p>Голов : {item.numberOfGoals}</p>
+            <p><span>Имя:</span> {item.player.firstName}</p>
+            <p><span>Фамилия:</span> {item.player.lastName ? item.player.lastName : 'Hету'}</p>
+            <p><span>День рождение:</span> {item.player.dateOfBirth}</p>
+            <p><span>Голов :</span> {item.numberOfGoals}</p>
           </div>
         </>
       ) : (

@@ -78,17 +78,20 @@ const AddPlayer = ({ AddNewPlayer }) => {
       ) : (
         <form onSubmit={addPlayer}>
           <lable>
-            Имя: <input />
-          </lable>
-          <lable>
-            Фамилия:
+            <span>Имя:</span> 
             <input />
           </lable>
           <lable>
-            День рождение: <input type="date" />
+            <span>Фамилия:</span>
+            <input />
           </lable>
           <lable>
-            Голов: <input type="number" min="0" />
+            <span>День рождение:</span> 
+            <input type="date" />
+          </lable>
+          <lable>
+            <span>Голов:</span> 
+            <input type="number" min="0" />
           </lable>
           <button>{error}</button>
         </form>

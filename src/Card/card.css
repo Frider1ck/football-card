@@ -1,18 +1,25 @@
 .card {
-    width: 17.54%;
-    height: 240px;
+    text-align: center;
+    font-family: 'Roboto Serif', sans-serif;
+    width: 19.85%;
+    height: 320px;
     border-radius: 20px;
-    padding: 10px 10px 10px 17px;
-    margin: 18px 17px 18px 17px ;
+    padding: 10px 10px 10px 10px;
+    margin: 18px 1px 18px 1px ;
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-image: url('../assets/iconm.png');
+    background-image: url('../assets/icon.png');
   }
+
+  .card span {
+    font-weight: bold;
+  } 
   
   .card div {
-    margin-top: 40px;
+    margin-top: 75px;
   }
+  
   .card svg {
     float: right;
     margin: 5px;
