@@ -54,6 +54,7 @@ const Card = ({ item, RemovePlayer, EditPlayer }) => {
     <div key={item.player.id} className={change ? "card" : "add-card"}>
       {change ? (
         <>
+          <div className="card__svg">
           <svg
             onClick={() => RemovePlayer(item.player.id)}
             width="15"
@@ -80,8 +81,9 @@ const Card = ({ item, RemovePlayer, EditPlayer }) => {
               fill="black"
             />
           </svg>
+          </div>
 
-          <div>
+          <div className="card__text">
             <p><span>Имя:</span> {item.player.firstName}</p>
             <p><span>Фамилия:</span> {item.player.lastName ? item.player.lastName : 'Hету'}</p>
             <p><span>День рождение:</span> {item.player.dateOfBirth}</p>
