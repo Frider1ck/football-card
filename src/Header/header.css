@@ -1,0 +1,77 @@
+header {
+    background-color: #282c34;
+    height: 55px;
+    color:white;
+    font-size: 18px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    color:white;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .topnav div {
+    display: inline-block;
+  }
+  
+  .topnav div {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .topnav p {
+    margin-top: 15px;
+    float: left;
+  }
+  
+  .topnav .active {
+    background-color: #ddd;
+    color: black;
+    border-radius:12px;
+  }
+  .topnav button:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius:12px;
+  }
+  
+  .topnav .search-container {
+    float: right;
+    padding: 0;
+  }
+
+  .topnav .search-container:hover {
+    float: right;
+    padding: 0;
+    background-color:none;
+  }
+  
+  .topnav input[type=text] {
+    padding: 7px 20px 7px 7px;
+    margin-top: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius:10px;
+    background-color:none;
+  }
+  
+  .topnav  button {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+    background-color: #282c34;
+    border:none;
+  }
