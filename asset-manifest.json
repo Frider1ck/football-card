@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/football-card/static/css/main.14f21052.css",
+    "main.js": "/football-card/static/js/main.f14e4bd9.js",
+    "static/media/icon.png": "/football-card/static/media/icon.84fd4e14b0b23a94cdb3.png",
+    "static/media/fone.jpg": "/football-card/static/media/fone.5adb77dd684b5a9d7364.jpg",
+    "index.html": "/football-card/index.html",
+    "main.14f21052.css.map": "/football-card/static/css/main.14f21052.css.map",
+    "main.f14e4bd9.js.map": "/football-card/static/js/main.f14e4bd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14f21052.css",
+    "static/js/main.f14e4bd9.js"
+  ]
+}
